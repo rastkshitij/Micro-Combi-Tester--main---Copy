@@ -144,6 +144,7 @@ moveToUpButton.addEventListener('click', moveToUp);
 // Initial UI update
 updateUI();
 
+
    document.getElementById("moveToMidButton").addEventListener("click", () => {
       document.getElementById("fixedDiv").style.display = "block";
     });
